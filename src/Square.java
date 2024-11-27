@@ -1,27 +1,7 @@
-public class Carre extends Rectangle{
+public class Square extends FormeRectangulaire{
 
-    private int side;
-
-    public Carre(int side){
-        this.side = side;
-    }
-    @Override
-    public int getWidth() {
-        return 0;
+    public Square(int cote) {
+        super(cote, cote);
     }
 
-    @Override
-    public int getHeight() {
-        return 0;
-    }
-
-    @Override
-    public void setWidth(int width) {
-
-    }
-
-    @Override
-    public void setHeight(int height) {
-
-    }
 }
